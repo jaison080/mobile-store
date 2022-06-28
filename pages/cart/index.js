@@ -37,12 +37,12 @@ const Cart = () => {
   return (
     <>
       <Head>
-        <title>My Shopping Cart | AlterClass</title>
+        <title>My Shopping Cart</title>
       </Head>
       <div className="container xl:max-w-screen-xl mx-auto py-12 px-6">
         {cartCount > 0 ? (
           <>
-            <h2 className="text-4xl font-semibold">Your shopping cart</h2>
+            <h2 className="text-4xl font-semibold">Your Shopping Cart</h2>
             <p className="mt-1 text-xl">
               {cartCount} items{' '}
               <button
